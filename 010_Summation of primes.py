@@ -1,3 +1,11 @@
+'''Summation of primes
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+Find the sum of all the primes below two million.
+
+素数的和
+所有小于10的素数的和是2 + 3 + 5 + 7 = 17。
+求所有小于两百万的素数的和。'''
+
 L = [2,3,5,]
 num = 2+3+5
 for x in range(7,2000000,2):
