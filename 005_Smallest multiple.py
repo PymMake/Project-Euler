@@ -5,6 +5,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 最小倍数
 2520是最小的能够被1到10整除的数。
 最小的能够被1到20整除的正数是多少？'''
+
 import math
 def lcm(a,b):
     return a*b//math.gcd(a,b)#gcd 求两数的最大公约数
